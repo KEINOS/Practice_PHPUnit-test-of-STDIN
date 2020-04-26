@@ -49,9 +49,11 @@ final class FunctionGetContentsFromStdinTest extends \PHPUnit\Framework\TestCase
 
 ## The Wrapper
 
-This helpful wrapper was made by [Denis](https://www.blogger.com/profile/06252737045102742909) in [his blog post](http://news-from-the-basement.blogspot.com/2011/07/mocking-phpinput.html).
+The wrapper script to mock the `PHP://` stream.
 
-- [MockPhpStream.php](./tests/MockPhpStream.php)
+- [./tests/MockPhpStream.php](./tests/MockPhpStream.php)
+
+This helpful wrapper was made by [Denis](https://www.blogger.com/profile/06252737045102742909) in [his blog post](http://news-from-the-basement.blogspot.com/2011/07/mocking-phpinput.html).
 
 ## How to Test
 
