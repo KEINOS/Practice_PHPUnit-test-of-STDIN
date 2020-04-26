@@ -1,6 +1,6 @@
 # PHPUnit Test Sample For STDIN
 
-This is a sample of PHPUnit to test the below function, which receives value from "STDIN" (Standard Input).
+This is a sample PHPUnit test to check the functionability of the below function, which receives a value from "STDIN" (Standard Input) and returns that value.
 
 ```php
 function getContentsFromStdin()
@@ -16,7 +16,7 @@ function getContentsFromStdin()
 
 ## The test
 
-To test a functionability of `STDIN` using PHPUnit, one way is to create a mock that overrides a `php://` stream as a wrapper and replaces the value from `STDIN`.
+To test the functionability of `STDIN` using PHPUnit, one way is to create a mock that overrides a `php://` stream as a wrapper and replaces the value from `STDIN`.
 
 ```php
 final class FunctionGetContentsFromStdinTest extends \PHPUnit\Framework\TestCase
@@ -53,7 +53,7 @@ This helpful wrapper was made by [Denis](https://www.blogger.com/profile/0625273
 
 ## How to Test
 
-To see the tests in action clone this repo an run the test.
+To see the tests in action clone this repo and run the test.
 
 ### Test it locally
 
