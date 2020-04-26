@@ -1,4 +1,4 @@
-FROM php:cli-alpine
+FROM php:7.0.33-alpine
 
 # Install composer
 RUN \
