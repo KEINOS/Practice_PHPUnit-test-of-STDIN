@@ -1,4 +1,4 @@
-FROM php:7.0.33-alpine
+FROM php:alpine
 
 # Install composer
 RUN \

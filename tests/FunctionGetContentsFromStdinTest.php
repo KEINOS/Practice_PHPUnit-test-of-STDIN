@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+namespace KEINOS\Tests;
+
 final class FunctionGetContentsFromStdinTest extends \PHPUnit\Framework\TestCase
 {
     public function testRegularInput()
