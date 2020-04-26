@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/KEINOS/Practice_PHPUnit-test-of-STDIN.svg?branch=master)](https://travis-ci.org/KEINOS/Practice_PHPUnit-test-of-STDIN)
+
 # PHPUnit Test Sample For STDIN
 
 This is a sample PHPUnit test to check the functionability of the below function, which receives a value from "STDIN" (Standard Input) and returns that value.

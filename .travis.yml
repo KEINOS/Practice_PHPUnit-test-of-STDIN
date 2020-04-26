@@ -1,6 +1,6 @@
 language: php
 
-install: /bin/bash ./install_composer.sh
+install: composer install
 
 php:
   # Latest Stable of PHP v7.0 (Released: 10 Jan 2019)
